@@ -1,0 +1,10 @@
+# requirments.txt
+
+numpy
+pandas
+python-binance
+tensorflow
+keras
+scikit-learn
+imbalanced-learn
+ta
