@@ -9,41 +9,6 @@ Sentiment analysis using state-of-the-art pre-trained models: BERT or GPT
 Advanced risk management strategies: Portfolio diversification, position sizing, stop loss, take profit, and maximum drawdown limits
 Real-time performance monitoring and adaptive learning capabilities
 Supports multiple cryptocurrency exchanges through API integration
-Prerequisites
-Python 3.7+
-pip (Python package manager)
-API keys for the supported cryptocurrency exchanges
-Installation
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/yourusername/hft-ai-crypto-trading-bot.git
-Navigate to the project directory:
-bash
-Copy code
-cd hft-ai-crypto-trading-bot
-Install the required Python packages:
-Copy code
-pip install -r requirements.txt
-Add your API keys for the supported cryptocurrency exchanges in the config.py file:
-bash
-Copy code
-api_keys = {
-    'exchange1': {
-        'api_key': 'your_api_key',
-        'secret_key': 'your_secret_key'
-    },
-    'exchange2': {
-        'api_key': 'your_api_key',
-        'secret_key': 'your_secret_key'
-    },
-    # ...
-}
-Usage
-Run the main script:
-css
-Copy code
-python main.py
 Monitor the trading bot's performance through the logs and generated reports.
 Customization
 The trading bot can be easily customized to incorporate additional trading strategies, risk management techniques, or alternative data sources. To do so, modify the relevant modules or create new ones, and update the main script accordingly.
